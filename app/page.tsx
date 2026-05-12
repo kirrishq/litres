@@ -41,7 +41,7 @@ export default function HomePage() {
       />
       {/* <ProposalOptions /> */}
       <ProposalSteps />
-      <ProposalProcess />
+      {/* <ProposalProcess /> */}
       {/* <ProposalIntro /> */}
       <MarqueeSection 
         logoSet="clients"

@@ -58,9 +58,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru" suppressHydrationWarning>
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
-      </head>
+      <head />
       <body className={`${namu.variable} ${manrope.variable}`}>
           <ScrollDirectionSync />
           {/* <Navbar /> */}

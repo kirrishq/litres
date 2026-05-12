@@ -97,8 +97,8 @@ export function ProposalStructure({ backgroundImage }: ProposalStructure) {
                         </p>
                     </div>
                 </div>
-                <Button variant="primary" withDot href="/litres" className="fund-card__button" target="_blank">
-                              Смотреть набросок визуального оформления
+                <Button variant="primary" href="/litres" className="fund-card__button" target="_blank">
+                              Смотреть концепцию
                 </Button>
             </div>
           </div>

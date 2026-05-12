@@ -612,9 +612,9 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .heroVisual {
+  /* .heroVisual {
     order: -1;
-  }
+  } */
 
   .shelfCard {
     min-height: 400px;
@@ -644,13 +644,17 @@
     padding: 24px;
     border-radius: 28px;
   }
+  .headerInner {
+    display: flex;
+    flex-direction: column;
+  }
 
   .nav {
     gap: 12px;
   }
 
   .title {
-    font-size: clamp(24px, 13vw, 40px);
+    font-size: clamp(24px, 13vw, 32px);
   }
 
   .sectionTitle,
@@ -734,3 +738,5 @@
   height: 24px;
   width: auto;
 }
+
+

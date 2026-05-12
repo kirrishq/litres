@@ -32,8 +32,8 @@
   --color-border-strong: #b9b1a5;
 
   /* --- Accent --- */
-  --color-accent: #5553E2;
-  --color-accent-hover: #1033cf;
+  --color-accent: #FF5500;
+  --color-accent-hover: #cd4400;
   --color-accent-soft: #e8ddd2;
 
   /* --- Status --- */
@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6,
   &.fund {
     padding: var(--space-6) var(--space-6);
     border-radius: var(--radius-lg);
-    background-color: #F8D462;
+    background-color: #FF5500;
 
     @media (max-width: 768px) {
       padding: var(--space-4) var(--space-4);
@@ -495,11 +495,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .button--primary {
-  background-color: var(--color-surface-invert);
+  background-color: var(--color-accent);
   color: var(--color-text-primary-invert);
 
   &:hover {
-    background-color: var(--color-black);
+    background-color: var(--color-accent-hover);
     color: var(--color-text-primary-invert);
   }
 }
@@ -2189,6 +2189,19 @@ h1, h2, h3, h4, h5, h6,
   border-radius: var(--radius-md);
   border: 1px dashed var(--color-border);
   background: var(--color-bg);
+
+  &.inverted {
+    background: var(--color-surface-invert);
+    color: var(--color-text-primary-invert);
+  }
+}
+
+.proposal-point-card.inverted .proposal-point-card {
+  color: var(--color-text-primary);
+}
+
+.proposal-point-card.inverted .process-tag {
+  color: var(--color-text-primary-invert);
 }
 
 [data-theme='dark'] .proposal-point-card {
