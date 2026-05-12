@@ -2046,6 +2046,11 @@ h1, h2, h3, h4, h5, h6,
   border: 1px dashed var(--color-border);
   display: flex;
   align-items: flex-end;
+
+  &.inverted {
+    background: var(--color-surface-invert);
+    color: var(--color-text-primary-invert);
+  }
 }
 
 .proposal-hero-card__media {
@@ -2196,11 +2201,13 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
-.proposal-point-card.inverted .proposal-point-card {
+.proposal-point-card.inverted .proposal-point-card,
+.proposal-hero-card.inverted .proposal-point-card {
   color: var(--color-text-primary);
 }
 
-.proposal-point-card.inverted .process-tag {
+.proposal-point-card.inverted .process-tag,
+.proposal-hero-card.inverted .process-tag {
   color: var(--color-text-primary-invert);
 }
 
